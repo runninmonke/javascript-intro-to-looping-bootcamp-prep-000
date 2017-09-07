@@ -16,3 +16,7 @@ function doWhileLoop (array) {
     array.pop();
   } while(array.length > 0 and maybeTrue());
 }
+
+function maybeTrue() {
+  return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
+}
